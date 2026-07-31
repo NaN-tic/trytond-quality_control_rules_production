@@ -1,0 +1,5 @@
+quality_control_rules_production
+================================
+
+The quality_control_rules_production module integrates quality control rules
+with production work, cycles and shift records.

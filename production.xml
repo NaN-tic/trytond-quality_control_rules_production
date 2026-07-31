@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.model.button" id="work_cycle_create_manual_quality_tests_button">
+            <field name="name">create_manual_quality_tests</field>
+            <field name="model">production.work.cycle</field>
+        </record>
+
+        <record model="ir.ui.view" id="work_view_form">
+            <field name="model">production.work</field>
+            <field name="inherit" ref="production_work.work_view_form"/>
+            <field name="name">work_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="work_cycle_view_form">
+            <field name="model">production.work.cycle</field>
+            <field name="inherit" ref="production_work.work_cycle_view_form"/>
+            <field name="name">work_cycle_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="shift_record_view_form">
+            <field name="model">production.work.shift.record</field>
+            <field name="inherit" ref="production_work_shift.shift_record_view_form"/>
+            <field name="name">shift_record_form</field>
+        </record>
+    </data>
+</tryton>
