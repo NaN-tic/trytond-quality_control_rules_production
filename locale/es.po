@@ -1,0 +1,6 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:production.work,quality_tests:"
+msgid "Quality Tests"
+msgstr "Tests de calidad"
