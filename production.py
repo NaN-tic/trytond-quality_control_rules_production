@@ -225,6 +225,7 @@ class WorkCycle(QualityRuleDocumentMixin, metaclass=PoolMeta):
             cycle.create_manual_tests(validate=False)
 
     @classmethod
+    @ModelView.button
     def run(cls, cycles):
         super().run(cycles)
         for cycle in cycles:
